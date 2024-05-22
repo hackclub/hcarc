@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-export default function image_slider() {
+export default function ImageSlider() {
     const [currentSlide, setCurrentSlide] = useState(1);
 
     useEffect(() => {
