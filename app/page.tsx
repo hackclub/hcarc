@@ -3,8 +3,8 @@ import Footer from '../components/footer';
 
 export default function Home() {
   return (
-    <div className="relative prose">
-      <div className="h-screen bg-[rgb(250,240,230)] relative overflow-hidden">
+    <div className=" prose">
+      <div className="bg-[rgb(250,240,230)] relative overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           {[...Array(8)].map((_, index) => (
             <div
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </header>
         <ImageSlider />
-        <main className="mx-auto text-left w-[50%] pt-10 text-[rgb(56,34,15)] relative z-10">
+        <main className="mx-auto text-left w-[50%] pt-10 text-[rgb(56,34,15)] mb-20 relative z-10">
           <div className="border-[5px] rounded-2xl border-dotted border-[rgb(56,34,15)] p-10 bg-white relative z-10">
             <h1 className="text-3xl font-bold mb-4">Welcome to the Hack Club Ham Radio Club!</h1>
             <p className="text-lg">Join us monthly in the ham radio channel of the Hack Club Slack. Experience ham radio at Hack Club events, like Outernet.</p>
