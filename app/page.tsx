@@ -50,7 +50,7 @@ export default function Home() {
             <div className="w-[70%] text-center font-[blox] text-5xl text-[rgb(250,240,230)]">
               <a href="#">HCHRC</a>
             </div>
-            <div className="w-[15%] text-center md:visible invisible text-[rgb(250,240,230)] underline decoration-dotted text-xl hover:text-white">
+            <div className="w-[15%] text-center md:visible invisible font-bold text-[rgb(250,240,230)] underline decoration-dotted text-xl hover:text-white">
               <a href="https://hackclub.com/slack/">Get started</a>
             </div>
           </div>
@@ -59,9 +59,11 @@ export default function Home() {
         <main className="mx-auto text-left w-[50%] pt-10 text-[rgb(56,34,15)] mb-20 relative z-10">
           <div className="border-[5px] rounded-2xl border-dotted border-[rgb(56,34,15)] p-10 bg-white relative z-10">
             <h1 className="text-3xl font-bold mb-4">Welcome to the Hack Club Ham Radio Club!</h1>
-            <p className="text-lg">Join us monthly in the ham radio channel of the Hack Club Slack. Experience ham radio at Hack Club events, like Outernet.</p>
+            <p className="text-lg">Join us monthly in the <code>#hamradio</code> channel of the Hack Club Slack. Experience ham radio at Hack Club events, like Outernet.</p>
+            <br></br>
             <p className="text-lg">Stay tuned for exciting updates and activities!</p>
-            <a href="#" className="text-lg font-bold hover:underline mt-4 inline-block">Learn more</a>
+            <br></br>
+            <a href="https://hackclub.com/slack/" className="text-lg font-bold hover:underline inline-block">Get started.</a>
           </div>
         </main>
       </div>
