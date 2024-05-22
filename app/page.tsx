@@ -1,5 +1,5 @@
 import ImageSlider from '../components/ImageSlider';
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
