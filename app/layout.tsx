@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HCHRC",
-  description: "HCHRC",
+  title: "HCARC",
+  description: "Hack Club Amateur Radio Club",
 };
 
 export default function RootLayout({
